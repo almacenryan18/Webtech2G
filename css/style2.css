@@ -1,0 +1,120 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-image: url(../IMAGES/back2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.logo{
+	width: 100px;
+	height: 80px;
+	background-color: black;
+	float: left;
+}
+.logo img{
+	width: 100px;
+	height: 100px;
+	margin-top: 0px;
+}
+.name{
+	width: 680px;
+	height: 80px;
+	float: left;
+	background-color: black;
+}
+.name h1{
+	font-size: 50px;
+	color: white;
+	margin-top: 5px;
+}
+.name h6{
+	color: white;
+	margin-left: 0px;
+}
+.nav {
+	width:480px;
+	height: 80px;
+	background-color: black;
+	float: left;
+	color: white;
+}
+.nav ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.nav ul li{
+	display: inline-block;
+	font-size: 25px;
+}
+.nav ul li a{
+	
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	transition: 0.6s ease;
+}
+.nav ul li a:hover{
+	background-color:#fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+.ed{
+	float: left;
+	width: 100%;
+	height: 800px;
+}
+.ed img{
+	margin-left: 170px;
+	width: 900px;
+	height: 800px;
+	margin-top: 50px;
+}
+.perso{
+	float: left;
+	margin-top: 50px;
+	width: 100%;
+	height: 500px;
+	color: white;
+}
+.per{
+	margin-left: 400px;
+}
+.perso h1{
+	margin-top: 10px;
+}
+table tr th{
+	padding: 10px;
+}
+table{
+	margin-left: 15px;
+}
+.sem{
+	margin-top: 100px;
+	float: left;
+}
+.sem img{
+	margin-left: 90px;
+}
+.top{
+	width: 100%;
+	height: 150px;
+	float: left;
+}
+.top img{
+	margin-top: 60px;
+	width: 70px;
+	height: 70px;
+	margin-left: 595px;
+}
+.top img:hover{
+	padding: 3px;
+	transition: ease 0.3s;
+	transform:scale(1.1); 
+}

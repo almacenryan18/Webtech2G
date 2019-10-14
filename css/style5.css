@@ -1,0 +1,146 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-image: url(../IMAGES/back2.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.logo{
+	width: 100px;
+	height: 80px;
+	background-color: black;
+	float: left;
+}
+.logo img{
+	width: 100px;
+	height: 100px;
+	margin-top: 0px;
+}
+.name{
+	width: 680px;
+	height: 80px;
+	float: left;
+	background-color: black;
+}
+.name h1{
+	font-size: 50px;
+	color: white;
+	margin-top: 5px;
+}
+.name h6{
+	color: white;
+	margin-left: 0px;
+}
+.nav {
+	width:480px;
+	height: 80px;
+	background-color: black;
+	float: left;
+	color: white;
+}
+.nav ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.nav ul li{
+	display: inline-block;
+	font-size: 25px;
+}
+.nav ul li a{
+	
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	transition: 0.6s ease;
+}
+.nav ul li a:hover{
+	background-color:#fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+.g{
+	float: left;
+	width: 100%;
+	height:80px;
+	background-image: url(../images/log1.jpg);
+}
+.log{
+	width: 90%;
+	height:80px;
+	float: right;
+	color: white;
+}
+.log h1{
+	float: left;
+	margin-left: 350px;
+	font-size: 50px;
+	margin-top: 10px;
+}
+.computer{
+	width: 50%;
+	height: 530px;
+	color: white;
+	float: left;
+}
+.computer h1{
+	margin-left: 50px;
+}
+.computer img{
+	width: 350px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.editing{
+	width: 50%;
+	float: right;
+	height: 530px;
+	color: white;
+}
+.editing h1{
+	margin-left: 50px;
+}
+.editing img{
+	width: 200px;
+	height: 200px;
+	margin-left: 90px;
+	margin-top: 20px;
+}
+.eating{
+	width: 50%;
+	float: left;
+	height: 530px;
+	color: white;
+}
+.eating h1{
+	margin-left: 50px;
+}
+.eating img{
+	width: 200px;
+	height: 200px;
+	margin-left: 90px;
+	margin-top: 20px;
+}
+.arts{
+	width: 50%;
+	float: left;
+	height: 530px;
+	color: white;
+}
+.arts h1{
+	margin-left: 50px;
+}
+.arts img{
+	width: 350px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 20px;
+}
